@@ -12,7 +12,7 @@ Reason for we can't create a non static variable in interface is we are creating
 
 interface A
 {
-    int age=23;
+    int age=23; //default final and static
     void run();
     void config();
 
